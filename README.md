@@ -15,4 +15,4 @@ In this repository for Spy@Runtime, you will find:
 :white_check_mark: The original tool (available)<br>
 :white_check_mark: A slightly modified version of the tool [] got working (available)
 
-This repository was constructed by [] under the supervision of [Emerson Murphy-Hill]. Thanks to [] and [] for their help in establishing this repository.
+This repository was constructed by <a href="https://github.com/SindhuVairavel">Sindhu Vairavel</a> under the supervision of <a href="https://github.com/CaptainEmerson">Emerson Murphy-Hill</a>. Thanks to [] and [] for their help in establishing this repository.
