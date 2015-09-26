@@ -1,0 +1,14 @@
+2015-09-26 16:14:11,266 [main] DEBUG Spy.Output.BehaviorModelView - (I) Writing behavior model dot file on ../output/site/specs/storageServerClient.StorageServiceClientView ...
+2015-09-26 16:14:11,267 [main] DEBUG Spy.Output.BehaviorModelView - (I) ... done
+2015-09-26 16:14:11,267 [main] DEBUG Spy.Output.BehaviorModelView - (I) Invoking GraphViz ...
+2015-09-26 16:14:11,392 [main] ERROR Spy.Output.BehaviorModelView - (E) Fatal Error: Unable to produce behavior model graph with GraphViz.
+2015-09-26 16:14:11,392 [main] ERROR Spy.Output.BehaviorModelView - --- Cause: Cannot run program "/usr/local/bin/dot" (in directory "../output/site/specs/storageServerClient.StorageServiceClientView"): error=2, No such file or directory
+2015-09-26 16:14:11,392 [main] DEBUG Spy.Output.BehaviorModelView - (I) Done with GraphViz
+2015-09-26 16:14:11,505 [main] ERROR Spy.Output.BehaviorModelView - Unable to write model xhtml page bem.xhtml
+2015-09-26 16:14:11,649 [main] DEBUG Spy.Output.BehaviorModelView - (I) Writing behavior model dot file on ../output/site/specs/storageServerClient.StorageServiceClientView ...
+2015-09-26 16:14:11,649 [main] DEBUG Spy.Output.BehaviorModelView - (I) ... done
+2015-09-26 16:14:11,649 [main] DEBUG Spy.Output.BehaviorModelView - (I) Invoking GraphViz ...
+2015-09-26 16:14:11,650 [main] ERROR Spy.Output.BehaviorModelView - (E) Fatal Error: Unable to produce behavior model graph with GraphViz.
+2015-09-26 16:14:11,650 [main] ERROR Spy.Output.BehaviorModelView - --- Cause: Cannot run program "/usr/local/bin/dot" (in directory "../output/site/specs/storageServerClient.StorageServiceClientView"): error=2, No such file or directory
+2015-09-26 16:14:11,650 [main] DEBUG Spy.Output.BehaviorModelView - (I) Done with GraphViz
+2015-09-26 16:14:11,656 [main] ERROR Spy.Output.BehaviorModelView - Unable to write model xhtml page pbm.xhtml

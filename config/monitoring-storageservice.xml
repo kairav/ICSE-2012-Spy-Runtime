@@ -1,0 +1,19 @@
+<aspectwerkz>
+    <system id="Monitoring">
+        <package name="it.polimi.dei.spy.monitoring">
+
+            <aspect class="MonitoringAspect"	deployment-model="perClass">
+	    <deployment-scope name="frr"	expression="execution(public * storageServerClient.StorageServiceClientView.*(..))"  />
+            	<param	name="mode"	value="trace"/>
+				<pointcut	name="methodCall"		expression="execution(public * storageServerClient.StorageServiceClientView.*(..))"/>
+                <advice		name="interceptAroundCall"	type="around"	bind-to="methodCall"/>
+                <pointcut	name="construction"		expression="execution(public storageServerClient.StorageServiceClientView.new(..))"/>
+                <advice		name="interceptAroundConstruction"	type="around"	bind-to="construction"/>
+            </aspect>
+			<aspect class="TerminationMonitoringAspect">
+                <pointcut	name="exit"		expression="execution(* storageServerClient.StorageServiceClientToMonitor.main(..))"/>
+                <advice		name="notifyTermination"	type="after"	bind-to="exit"/>
+            </aspect>
+        </package>
+    </system>
+</aspectwerkz>

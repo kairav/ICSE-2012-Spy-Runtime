@@ -1,0 +1,12 @@
+2015-09-26 16:14:11,612 [main] DEBUG Spy.Bem.Cfst - * state: { StorageServiceClientView :  close().retval == null & finish().retval == null & putNextEntry(ee).retval == null & putNextEntry(ff).retval == null & unbind().retval == null & write([120]).retval throws java.util.zip.ZipException: no current ZIP entry }
+2015-09-26 16:14:11,612 [main] DEBUG Spy.Bem.Cfst - * observable { StorageServiceClientView :  close().retval == null & finish().retval == null & putNextEntry(ee).retval == null & putNextEntry(ff).retval == null & unbind().retval == null & write([120]).retval throws java.util.zip.ZipException: no current ZIP entry }
+2015-09-26 16:14:11,612 [main] DEBUG Spy.Bem.Cfst - * cf StorageServiceClientView()
+2015-09-26 16:14:11,612 [main] DEBUG Spy.Bem.Cfst - * cfstate null
+2015-09-26 16:14:11,613 [main] DEBUG Spy.Bem.Cfst - * state: { StorageServiceClientView :  close().retval == null & finish().retval == null & putNextEntry(ee).retval throws java.util.zip.ZipException: duplicate entry: ee & putNextEntry(ff).retval == null & unbind().retval == null & write([120]).retval == null }
+2015-09-26 16:14:11,613 [main] DEBUG Spy.Bem.Cfst - * observable { StorageServiceClientView :  close().retval == null & finish().retval == null & putNextEntry(ee).retval throws java.util.zip.ZipException: duplicate entry: ee & putNextEntry(ff).retval == null & unbind().retval == null & write([120]).retval == null }
+2015-09-26 16:14:11,613 [main] DEBUG Spy.Bem.Cfst - * cf StorageServiceClientView()putNextEntry(ee)
+2015-09-26 16:14:11,613 [main] DEBUG Spy.Bem.Cfst - * cfstate null
+2015-09-26 16:14:11,613 [main] DEBUG Spy.Bem.Cfst - * state: { StorageServiceClientView :  close().retval == null & finish().retval throws java.io.IOException: Stream closed & putNextEntry(ee).retval throws java.io.IOException: Stream closed & putNextEntry(ff).retval throws java.io.IOException: Stream closed & unbind().retval == null & write([120]).retval throws java.io.IOException: Stream closed }
+2015-09-26 16:14:11,613 [main] DEBUG Spy.Bem.Cfst - * observable { StorageServiceClientView :  close().retval == null & finish().retval throws java.io.IOException: Stream closed & putNextEntry(ee).retval throws java.io.IOException: Stream closed & putNextEntry(ff).retval throws java.io.IOException: Stream closed & unbind().retval == null & write([120]).retval throws java.io.IOException: Stream closed }
+2015-09-26 16:14:11,613 [main] DEBUG Spy.Bem.Cfst - * cf StorageServiceClientView()close()
+2015-09-26 16:14:11,613 [main] DEBUG Spy.Bem.Cfst - * cfstate null

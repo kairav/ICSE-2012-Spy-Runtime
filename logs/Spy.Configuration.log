@@ -1,0 +1,16 @@
+2015-09-26 16:14:09,241 [main] INFO  Spy.Configuration - (I) Wrapped symbolic instance pool: write( byte[] ) argument 0 of class java.lang.String with symbolic values: [0]
+2015-09-26 16:14:09,243 [main] INFO  Spy.Configuration - (I) Base type is byte[]
+2015-09-26 16:14:09,274 [main] INFO  Spy.Configuration - (I) For symbolic value <0> loaded value is [120]
+2015-09-26 16:14:09,276 [main] WARN  Spy.Configuration - (W) WARNING: No type variable configuration for a generic class; using default upper bounds for type variables 
+2015-09-26 16:14:09,278 [main] WARN  Spy.Configuration - (W) Unconfigured instance pool, type interface it.polimi.dei.spy.config.annotations.TestInstancePool; member: public void storageServerClient.StorageServiceClientView.putNextEntry(java.lang.String) throws java.rmi.RemoteException,java.io.IOException, pos: 0; back to other configured annotation 
+2015-09-26 16:14:09,279 [main] WARN  Spy.Configuration - (W) Unconfigured instance pool, type interface it.polimi.dei.spy.config.annotations.TestInstancePool; member: public void storageServerClient.StorageServiceClientView.write(byte[]) throws java.rmi.RemoteException,java.io.IOException, pos: 0; back to other configured annotation 
+2015-09-26 16:14:09,279 [main] INFO  Spy.Configuration - (I) Wrapped symbolic instance pool: write( byte[] ) argument 0 of class java.lang.String with symbolic values: [0]
+2015-09-26 16:14:09,279 [main] INFO  Spy.Configuration - (I) Base type is byte[]
+2015-09-26 16:14:09,280 [main] INFO  Spy.Configuration - (I) For symbolic value <0> loaded value is [120]
+2015-09-26 16:14:09,281 [main] WARN  Spy.Configuration - (W) WARNING: No type variable configuration for a generic class; using default upper bounds for type variables 
+2015-09-26 16:14:09,287 [main] DEBUG Spy.Configuration - (W) Configuration Warning: Instance Pool not configured for java.lang.String, @InstancePoolTypes annotation required
+2015-09-26 16:14:09,287 [main] DEBUG Spy.Configuration - (W) Configuration Warning: Instance Pool not configured for java.lang.String, @InstancePoolTypes annotation required
+2015-09-26 16:14:09,289 [main] DEBUG Spy.Configuration - (W) Configuration Warning: Instance Pool not configured for [B, @InstancePoolTypes annotation required
+2015-09-26 16:14:09,290 [main] DEBUG Spy.Configuration - (W) Configuration Warning: Instance Pool not configured for [B, @InstancePoolTypes annotation required
+2015-09-26 16:14:11,267 [main] DEBUG Spy.Configuration - (I) Configured location for dot is /usr/local/bin/dot
+2015-09-26 16:14:11,649 [main] DEBUG Spy.Configuration - (I) Configured location for dot is /usr/local/bin/dot

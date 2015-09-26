@@ -1,0 +1,20 @@
+<aspectwerkz>
+    <system id="Monitoring">
+        <package name="it.polimi.dei.spy.monitoring">
+            <aspect class="MonitoringAspect" deployment-model="perClass">
+            	<param	name="mode"	value="collect"/>
+                <pointcut	name="methodCall"
+                			expression="execution(public * storageServerClient.StorageServiceClientView.*(..))"/>
+                <advice		name="interceptCall"	type="before"	bind-to="methodCall"/>           
+                <pointcut	name="construction"
+                			expression="execution(storageServerClient.StorageServiceClientView.new(..))"/>
+                <advice		name="interceptConstruction"	type="before"	bind-to="construction"/>
+            </aspect>
+			<aspect class="TerminationMonitoringAspect" deployment-model="perJVM">
+                <pointcut	name="exit"
+                			expression="execution(* org.junit.runner.JUnitCore.runMain(..))"/>
+                <advice		name="notifyTermination"	type="after"	bind-to="exit"/>
+            </aspect>
+        </package>
+    </system>
+</aspectwerkz>

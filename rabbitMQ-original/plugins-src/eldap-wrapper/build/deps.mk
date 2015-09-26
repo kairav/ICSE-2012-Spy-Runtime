@@ -1,0 +1,2 @@
+$(EBIN_DIR)/eldap.beam: /Users/mariosangiorgio/Desktop/workspace/spy-monitoring/rabbitMQ-original/plugins-src/eldap-wrapper/eldap-git/src/eldap.erl /Users/mariosangiorgio/Desktop/workspace/spy-monitoring/rabbitMQ-original/plugins-src/eldap-wrapper/eldap-git/generated/ELDAPv3.hrl /Users/mariosangiorgio/Desktop/workspace/spy-monitoring/rabbitMQ-original/plugins-src/eldap-wrapper/eldap-git/include/eldap.hrl
+$(DEPS_FILE): /Users/mariosangiorgio/Desktop/workspace/spy-monitoring/rabbitMQ-original/plugins-src/generate_deps

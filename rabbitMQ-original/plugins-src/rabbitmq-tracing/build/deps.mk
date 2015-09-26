@@ -1,0 +1,13 @@
+$(TEST_EBIN_DIR)/rabbit_tracing_test.beam: /Users/mariosangiorgio/Desktop/workspace/spy-monitoring/rabbitMQ-original/plugins-src/rabbitmq-tracing/test/src/rabbit_tracing_test.erl
+$(EBIN_DIR)/rabbit_tracing_traces.beam: /Users/mariosangiorgio/Desktop/workspace/spy-monitoring/rabbitMQ-original/plugins-src/rabbitmq-tracing/src/rabbit_tracing_traces.erl
+$(EBIN_DIR)/rabbit_tracing_mgmt.beam: /Users/mariosangiorgio/Desktop/workspace/spy-monitoring/rabbitMQ-original/plugins-src/rabbitmq-tracing/src/rabbit_tracing_mgmt.erl
+$(EBIN_DIR)/rabbit_tracing_consumer_sup.beam: /Users/mariosangiorgio/Desktop/workspace/spy-monitoring/rabbitMQ-original/plugins-src/rabbitmq-tracing/src/rabbit_tracing_consumer_sup.erl
+$(EBIN_DIR)/rabbit_tracing_wm_file.beam: /Users/mariosangiorgio/Desktop/workspace/spy-monitoring/rabbitMQ-original/plugins-src/rabbitmq-tracing/src/rabbit_tracing_wm_file.erl
+$(EBIN_DIR)/rabbit_tracing_app.beam: /Users/mariosangiorgio/Desktop/workspace/spy-monitoring/rabbitMQ-original/plugins-src/rabbitmq-tracing/src/rabbit_tracing_app.erl
+$(EBIN_DIR)/rabbit_tracing_consumer.beam: /Users/mariosangiorgio/Desktop/workspace/spy-monitoring/rabbitMQ-original/plugins-src/rabbitmq-tracing/src/rabbit_tracing_consumer.erl
+$(EBIN_DIR)/rabbit_tracing_wm_trace.beam: /Users/mariosangiorgio/Desktop/workspace/spy-monitoring/rabbitMQ-original/plugins-src/rabbitmq-tracing/src/rabbit_tracing_wm_trace.erl
+$(EBIN_DIR)/rabbit_tracing_wm_traces.beam: /Users/mariosangiorgio/Desktop/workspace/spy-monitoring/rabbitMQ-original/plugins-src/rabbitmq-tracing/src/rabbit_tracing_wm_traces.erl
+$(EBIN_DIR)/rabbit_tracing_sup.beam: /Users/mariosangiorgio/Desktop/workspace/spy-monitoring/rabbitMQ-original/plugins-src/rabbitmq-tracing/src/rabbit_tracing_sup.erl
+$(EBIN_DIR)/rabbit_tracing_files.beam: /Users/mariosangiorgio/Desktop/workspace/spy-monitoring/rabbitMQ-original/plugins-src/rabbitmq-tracing/src/rabbit_tracing_files.erl
+$(EBIN_DIR)/rabbit_tracing_wm_files.beam: /Users/mariosangiorgio/Desktop/workspace/spy-monitoring/rabbitMQ-original/plugins-src/rabbitmq-tracing/src/rabbit_tracing_wm_files.erl
+$(DEPS_FILE): /Users/mariosangiorgio/Desktop/workspace/spy-monitoring/rabbitMQ-original/plugins-src/generate_deps

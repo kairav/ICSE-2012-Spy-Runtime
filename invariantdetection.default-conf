@@ -1,0 +1,27 @@
+functions = \
+it.polimi.dei.spy.model.functions.decl.FAlgebraicTermAppend, \
+it.polimi.dei.spy.model.functions.decl.FSum, \
+it.polimi.dei.spy.model.functions.decl.FAlgebraicAttrAt, \
+it.polimi.dei.spy.model.functions.decl.FAlgebraicTermToArray, \
+it.polimi.dei.spy.model.functions.decl.FBooleanNegate, \
+it.polimi.dei.spy.model.functions.decl.FDifference, \
+it.polimi.dei.spy.model.functions.decl.FAlgebraicTermRemove, \
+it.polimi.dei.spy.model.functions.decl.FAlgebraicTermContains, \
+it.polimi.dei.spy.model.functions.decl.FAlgebraicTermAppendOrdered, \
+it.polimi.dei.spy.model.functions.decl.FAlgebraicTermAppendOrderedFromLast, \
+it.polimi.dei.spy.model.functions.decl.FAlgebraicTermAppendAt, \
+it.polimi.dei.spy.model.functions.decl.FAlgebraicTermReplaceAt, \
+it.polimi.dei.spy.model.functions.decl.FAlgebraicTermRemoveAt, \
+it.polimi.dei.spy.model.functions.decl.FAlgebraicTermRemoveFirstOccurrenceOf, \
+it.polimi.dei.spy.model.functions.decl.FAlgebraicTermRemoveLastOccurrenceOf, \
+it.polimi.dei.spy.model.functions.decl.FAlgebraicTermPopToLastOccurrence, \
+it.polimi.dei.spy.model.functions.decl.FRelation, \
+it.polimi.dei.spy.model.functions.decl.FThrowsRelation, \
+it.polimi.dei.spy.model.functions.decl.FOr
+
+y=, it.polimi.dei.spy.model.functions.decl.FAlgebraicTermLength \
+it.polimi.dei.spy.model.functions.decl.FAlgebraicTermCountOp, \
+it.polimi.dei.spy.model.functions.decl.FMod, \
+it.polimi.dei.spy.model.functions.decl.FAlgebraicTermCountModifierApp, \
+
+maxInvariantDepth = 2

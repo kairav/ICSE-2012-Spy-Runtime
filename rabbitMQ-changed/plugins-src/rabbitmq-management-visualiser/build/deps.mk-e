@@ -1,0 +1,3 @@
+$(EBIN_DIR)/rabbit_visualiser_mgmt.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-management-visualiser/src/rabbit_visualiser_mgmt.erl
+$(EBIN_DIR)/rabbit_mgmt_wm_all.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-management-visualiser/src/rabbit_mgmt_wm_all.erl
+rabbitmq-management-visualiser/build/deps.mk: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/generate_deps

@@ -1,0 +1,13 @@
+$(EBIN_DIR)/rabbit_tracing_sup.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-tracing/src/rabbit_tracing_sup.erl
+$(EBIN_DIR)/rabbit_tracing_consumer_sup.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-tracing/src/rabbit_tracing_consumer_sup.erl
+$(EBIN_DIR)/rabbit_tracing_files.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-tracing/src/rabbit_tracing_files.erl
+$(EBIN_DIR)/rabbit_tracing_consumer.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-tracing/src/rabbit_tracing_consumer.erl
+$(TEST_EBIN_DIR)/rabbit_tracing_test.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-tracing/test/src/rabbit_tracing_test.erl
+$(EBIN_DIR)/rabbit_tracing_wm_trace.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-tracing/src/rabbit_tracing_wm_trace.erl
+$(EBIN_DIR)/rabbit_tracing_wm_file.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-tracing/src/rabbit_tracing_wm_file.erl
+$(EBIN_DIR)/rabbit_tracing_wm_files.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-tracing/src/rabbit_tracing_wm_files.erl
+$(EBIN_DIR)/rabbit_tracing_app.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-tracing/src/rabbit_tracing_app.erl
+$(EBIN_DIR)/rabbit_tracing_traces.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-tracing/src/rabbit_tracing_traces.erl
+$(EBIN_DIR)/rabbit_tracing_mgmt.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-tracing/src/rabbit_tracing_mgmt.erl
+$(EBIN_DIR)/rabbit_tracing_wm_traces.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-tracing/src/rabbit_tracing_wm_traces.erl
+rabbitmq-tracing/build/deps.mk: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/generate_deps

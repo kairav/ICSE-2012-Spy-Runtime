@@ -1,0 +1,19 @@
+<aspectwerkz>
+    <system id="Monitoring">
+        <package name="it.polimi.dei.spy.monitoring">
+
+            <aspect class="MonitoringAspect"	deployment-model="perClass">
+	    <deployment-scope name="frr"	expression="execution(public * rabbitMQ.ChannelImplementation.*(..))"  />
+            	<param	name="mode"	value="trace"/>
+				<pointcut	name="methodCall"		expression="execution(public * rabbitMQ.ChannelImplementation.*(..))"/>
+                <advice		name="interceptAroundCall"	type="around"	bind-to="methodCall"/>
+                <pointcut	name="construction"		expression="execution(public rabbitMQ.ChannelImplementation.new(..))"/>
+                <advice		name="interceptAroundConstruction"	type="around"	bind-to="construction"/>
+            </aspect>
+			<aspect class="TerminationMonitoringAspect">
+                <pointcut	name="exit"		expression="execution(* rabbitMQ.ChannelClientToMonitor.main(..))"/>
+                <advice		name="notifyTermination"	type="after"	bind-to="exit"/>
+            </aspect>
+        </package>
+    </system>
+</aspectwerkz>

@@ -1,0 +1,13 @@
+{application,rabbitmq_mochiweb,
+             [{description,"RabbitMQ Mochiweb Embedding"},
+              {vsn,"0.0.0"},
+              {modules,[rabbit_mochiweb,rabbit_mochiweb_app,
+                        rabbit_mochiweb_registry,rabbit_mochiweb_sup,
+                        rabbit_mochiweb_util,rabbit_mochiweb_web,
+                        rabbit_webmachine]},
+              {registered,[]},
+              {mod,{rabbit_mochiweb_app,[]}},
+              {env,[{listeners,[{mgmt,[{port,55672}]}]},
+                    {contexts,[{rabbit_mgmt,mgmt}]},
+                    {default_listener,[{port,55670}]}]},
+              {applications,[kernel,stdlib,mochiweb,webmachine]}]}.

@@ -1,0 +1,10 @@
+$(EBIN_DIR)/rabbit_webmachine.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-mochiweb/src/rabbit_webmachine.erl
+$(EBIN_DIR)/rabbit_mochiweb_app.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-mochiweb/src/rabbit_mochiweb_app.erl
+$(EBIN_DIR)/rabbit_mochiweb_registry.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-mochiweb/src/rabbit_mochiweb_registry.erl
+$(TEST_EBIN_DIR)/rabbit_mochiweb_test.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-mochiweb/test/src/rabbit_mochiweb_test.erl
+$(EBIN_DIR)/rabbit_mochiweb_sup.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-mochiweb/src/rabbit_mochiweb_sup.erl
+$(EBIN_DIR)/rabbit_mochiweb_util.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-mochiweb/src/rabbit_mochiweb_util.erl
+$(EBIN_DIR)/rabbit_mochiweb_web.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-mochiweb/src/rabbit_mochiweb_web.erl
+$(TEST_EBIN_DIR)/rabbit_mochiweb_test_unit.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-mochiweb/test/src/rabbit_mochiweb_test_unit.erl
+$(EBIN_DIR)/rabbit_mochiweb.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/rabbitmq-mochiweb/src/rabbit_mochiweb.erl
+$(DEPS_FILE): /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/generate_deps

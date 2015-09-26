@@ -1,0 +1,17 @@
+$(EBIN_DIR)/state_t.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/src/state_t.erl /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/include/monad_specs.hrl $(EBIN_DIR)/do.beam $(EBIN_DIR)/monad.beam
+$(EBIN_DIR)/monad.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/src/monad.erl $(EBIN_DIR)/do.beam
+$(TEST_EBIN_DIR)/test_cut.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/test/src/test_cut.erl $(EBIN_DIR)/cut.beam $(EBIN_DIR)/do.beam
+$(EBIN_DIR)/do.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/src/do.erl
+$(EBIN_DIR)/cut.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/src/cut.erl
+$(TEST_EBIN_DIR)/test_import_as.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/test/src/test_import_as.erl $(EBIN_DIR)/cut.beam $(EBIN_DIR)/import_as.beam
+$(EBIN_DIR)/maybe_m.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/src/maybe_m.erl /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/include/monad_specs.hrl $(EBIN_DIR)/monad.beam $(EBIN_DIR)/monad_plus.beam /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/include/monad_plus_specs.hrl
+$(EBIN_DIR)/monad_plus.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/src/monad_plus.erl $(EBIN_DIR)/cut.beam $(EBIN_DIR)/do.beam
+$(EBIN_DIR)/error_t.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/src/error_t.erl /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/include/monad_specs.hrl $(EBIN_DIR)/do.beam $(EBIN_DIR)/monad.beam
+$(EBIN_DIR)/omega_m.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/src/omega_m.erl /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/include/monad_specs.hrl $(EBIN_DIR)/monad.beam $(EBIN_DIR)/monad_plus.beam /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/include/monad_plus_specs.hrl
+$(EBIN_DIR)/list_m.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/src/list_m.erl /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/include/monad_specs.hrl $(EBIN_DIR)/monad.beam $(EBIN_DIR)/monad_plus.beam /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/include/monad_plus_specs.hrl
+$(EBIN_DIR)/test.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/src/test.erl $(EBIN_DIR)/do.beam
+$(EBIN_DIR)/error_m.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/src/error_m.erl /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/include/monad_specs.hrl $(EBIN_DIR)/monad.beam
+$(EBIN_DIR)/identity_m.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/src/identity_m.erl /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/include/monad_specs.hrl $(EBIN_DIR)/monad.beam
+$(EBIN_DIR)/import_as.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/src/import_as.erl
+$(TEST_EBIN_DIR)/test_do.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/erlando/test/src/test_do.erl $(EBIN_DIR)/do.beam
+erlando/build/deps.mk: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/generate_deps

@@ -1,0 +1,5 @@
+<aspectwerkz>
+    <system id="Monitoring">
+    <advisable pointcut-type="execution" expression="within(storageServer.StorageServerComponent)"/>
+    </system>
+</aspectwerkz>

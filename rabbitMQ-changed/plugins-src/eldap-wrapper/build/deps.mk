@@ -1,0 +1,2 @@
+$(EBIN_DIR)/eldap.beam: /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/eldap-wrapper/eldap-git/src/eldap.erl /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/eldap-wrapper/eldap-git/include/eldap.hrl /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/eldap-wrapper/eldap-git/generated/ELDAPv3.hrl
+$(DEPS_FILE): /Users/mariosangiorgio/Downloads/rabbitmq-server-2.7.0/plugins-src/generate_deps
