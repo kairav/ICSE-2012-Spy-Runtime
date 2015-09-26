@@ -15,7 +15,7 @@ In this repository for Spy@Runtime, you will find:
 :white_check_mark: The original tool (available)<br>
 
 Instructions to Run - <br>
--Follow the steps given in the Tool website.
+-Follow the steps given in the Tool website. <br>
 -Use ./run-spy-quick.sh -w it.polimi.dei.spy.wrappers.StorageServiceClientViewWrapper storageServerClient.StorageServiceClientView for Model generation and 
 ./run-monitoring.sh config/monitoring-storageservice.xml  storageServerClient.StorageServiceClientGUIToMonitor command to enable Monitoring facility instead of using the corresponding commands given in the website. <br>
 
