@@ -13,6 +13,9 @@ In this repository for Spy@Runtime, you will find:
 
 :white_check_mark: Source code (available)<br>
 :white_check_mark: The original tool (available)<br>
-:white_check_mark: A slightly modified version of the tool [] got working (available)
 
-This repository was constructed by <a href="https://github.com/SindhuVairavel">Sindhu Vairavel</a> under the supervision of <a href="https://github.com/CaptainEmerson">Emerson Murphy-Hill</a>. Thanks to [] and [] for their help in establishing this repository.
+Instructions to Run:
+-Follow the steps given in the Tool website. 
+-Use ./run-monitoring.sh config/monitoring-storageservice.xml  storageServerClient.StorageServiceClientGUIToMonitor command to enable Monitoring facility instead of using the command given in the website. 
+
+This repository was constructed by <a href="https://github.com/SindhuVairavel">Sindhu Vairavel</a> under the supervision of <a href="https://github.com/CaptainEmerson">Emerson Murphy-Hill</a>. Thanks to Mario Sangiorgio and Andrea Mocci for their help in establishing this repository.
