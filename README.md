@@ -8,7 +8,7 @@ This repository is not the original repository for this tool. Here are some link
 [The Tool on the Visual Studio Gallery - http://www.inf.usi.ch/postdoc/mocci/spy-testing/tool.xhtml]
 [A Video of the Tool - https://youtu.be/EqQ7k_UG448]
 
-In this repository, for Spy@Runtime you will find:
+In this repository for Spy@Runtime, you will find:
 
 :white_check_mark: Source code (available)
 :white_check_mark: The original tool (available)
