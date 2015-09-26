@@ -16,7 +16,7 @@ In this repository for Spy@Runtime, you will find:
 
 Instructions to Run - <br>
 -Follow the steps given in the Tool website. <br>
--Use ./run-spy-quick.sh -w it.polimi.dei.spy.wrappers.StorageServiceClientViewWrapper storageServerClient.StorageServiceClientView for Model generation and 
-./run-monitoring.sh config/monitoring-storageservice.xml  storageServerClient.StorageServiceClientGUIToMonitor command to enable Monitoring facility instead of using the corresponding commands given in the website. <br>
+-Use <b>./run-spy-quick.sh -w it.polimi.dei.spy.wrappers.StorageServiceClientViewWrapper storageServerClient.StorageServiceClientView</b> for Model generation and 
+<b>./run-monitoring.sh config/monitoring-storageservice.xml  storageServerClient.StorageServiceClientGUIToMonitor</b> command to enable Monitoring facility instead of using the corresponding commands given in the website. <br>
 
 This repository was constructed by <a href="https://github.com/SindhuVairavel">Sindhu Vairavel</a> under the supervision of <a href="https://github.com/CaptainEmerson">Emerson Murphy-Hill</a>. Thanks to Mario Sangiorgio and Andrea Mocci for their help in establishing this repository.
